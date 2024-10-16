@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeghZ Signature Dish</title>
+    <link rel="stylesheet" href="Styles/Assignment_1_Shared.css">
+</head>
+<body>
+    <header class="banner-header">
+        <nav>
+            <div class="logo">
+                <img src="../MeghZz  Assignment_1/Assigment_1_Picz N Danz/Logo_1.jpeg" alt="MeghZ Signature Dish Logo">
+                <h1>MeghZ Signature Dish</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="../MeghZz  Assignment_1/Assignment_1_Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="biriyani">
+        <div class="biriyani-content">
+            <div class="button-container">
+                <a href="../MeghZz  Assignment_1/Assignment_1_Start_cooking.html" class="start-cooking-button">Start Cooking</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="image-gallery">
+        <div class="image-container">
+            <a href="../MeghZz  Assignment_1/Assignment_1_Start_cooking.html#speciality-section1">
+                <img src="../MeghZz  Assignment_1/Assigment_1_Picz N Danz/Thalassery.jpeg" alt="Dish 1">
+                <div class="image-text">Thalassery</div>
+            </a>
+        </div>
+        
+        <div class="image-container">
+            <a href="../MeghZz  Assignment_1/Assignment_1_Start_cooking.html#speciality-section2">
+                <img src="../MeghZz  Assignment_1/Assigment_1_Picz N Danz/HYdrabadi.png" alt="Dish 2">
+                <div class="image-text">HYdrabadi</div>
+            </a>
+        </div>
+        <div class="image-container">
+            <a href="../MeghZz  Assignment_1/Assignment_1_Start_cooking.html#speciality-section3">
+             <img src="../MeghZz  Assignment_1/Assigment_1_Picz N Danz/Ambur.jpeg" alt="Dish 3">
+             <div class="image-text">Ambur</div>
+            </a>
+        </div>
+        <div class="image-container">
+            <a href="../MeghZz  Assignment_1/Assignment_1_Start_cooking.html#speciality-section4">
+                <img src="../MeghZz  Assignment_1/Assigment_1_Picz N Danz/Manjali.jpeg" alt="Dish 4">
+                <div class="image-text">Manjali</div>
+          </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 MeghZ Signature Dish. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
