@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: rgb(22, 34, 22);
+    color: #c0cec1;
+    padding: 16px;
+}
+
+.header__page-title {
+    font-size: 1.5rem;
+}
+
+.main-content {
+    background-color: rgb(176, 194, 176);
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 16px;
+}
+
+.main-content__article {
+    background-color: rgb(212, 220, 212);
+    border-radius: 10px;
+    margin: 8px 0;
+    padding: 16px;
+}
+
+.main-content__article.featured {
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.zoom-image {
+    display: block;
+    width: 100%; 
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.zoom-image:hover {
+    transform: scale(1.5);
+}
+
+.featured__image {
+    border-radius: 10px;
+}
+
+.main-content__post {
+    background-size: cover;
+    border-radius: 10px;
+    color: rgb(31, 126, 31);
+    margin: 8px 0;
+    padding: 16px;
+}
+
+#speciality-section1,
+#speciality-section2,
+#speciality-section3,
+#speciality-section4 {
+    border-radius: 10px;
+    background-size: cover;
+    height: 200px;
+}
+
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.main-content__divider {
+    background-size: cover;
+    height: 150px;
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    display: grid;
+    gap: 16px;
+    grid-template-areas: "image featured";
+    margin: auto;
+    max-width: 1024px;
+    padding: 24px;
+}
+
+.main-content__article {
+    margin: 0;
+}
+
+.main-content__divider {
+    display: none;
+}
+
+.main__image {
+    grid-area: image;
+}
+
+.main-content__article.featured {
+    display: grid;
+    flex-direction: column;
+    grid-area: featured;
+}
+
+.main-content__article.featured .featured__image {
+    background-size: cover;
+    display: block;
+    margin-top: 2px;
+    flex-grow: 2;
+}
+
+
+#speciality-section1:target,
+#speciality-section2:target,
+#speciality-section3:target,
+#speciality-section4:target {
+    border: 5px solid tomato;
+    color: white;
+    background-color: rgba(255, 99, 71, 0.5);
+}
+#speciality-section1 {
+    background-image: url("../Assigment_1_Picz\ N\ Danz/Thalassery.jpeg");
+    border-radius: 10px;
+    background-size:cover;
+    height: 200px;
+    
+}
+
+#speciality-section2 {
+    background-image: url("../Assigment_1_Picz\ N\ Danz/HYdrabadi.png");
+    border-radius: 10px;
+    background-size: cover;
+    height: 200px;
+   
+}
+
+#speciality-section3 {
+    background-image: url("../Assigment_1_Picz\ N\ Danz/Ambur.jpeg");
+    border-radius: 10px;
+    background-size: cover;
+    height: 200px;
+   
+   
+}
+
+#speciality-section4 {
+    background-image: url("../Assigment_1_Picz\ N\ Danz/Manjali.jpeg");
+    border-radius: 10px;
+    background-size: cover;
+    height: 200px;
+   
+}
+
+.back-button {
+    position: absolute;
+    bottom: 5px; 
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-top: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
+.back-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hidden {
+    display: none;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 390px) {
+    .header__page-title {
+        font-size: 1.3rem;
+    }
+    .main-content {
+        padding: 8px;
+    }
+    .main-content__article.featured {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header__page-title {
+        font-size: 1.4rem;
+    }
+    .main-content {
+        padding: 12px;
+    }
+    .main-content__article.featured {
+        font-size: 1.1rem;
+    }
+}
