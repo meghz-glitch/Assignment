@@ -140,7 +140,7 @@ body {
     background-color: rgba(255, 99, 71, 0.5);
 }
 #speciality-section1 {
-    background-image: url("../Images/Thalassery.jpeg");
+    background-image: url("./Images/Thalassery.jpeg");
     border-radius: 10px;
     background-size:cover;
     height: 200px;
@@ -148,7 +148,7 @@ body {
 }
 
 #speciality-section2 {
-    background-image: url("../Images/HYdrabadi.png");
+    background-image: url("./Images/HYdrabadi.png");
     border-radius: 10px;
     background-size: cover;
     height: 200px;
@@ -156,7 +156,7 @@ body {
 }
 
 #speciality-section3 {
-    background-image: url("../Images/Ambur.jpeg");
+    background-image: url("./Images/Ambur.jpeg");
     border-radius: 10px;
     background-size: cover;
     height: 200px;
@@ -165,7 +165,7 @@ body {
 }
 
 #speciality-section4 {
-    background-image: url("../Images/Manjali.jpeg");
+    background-image: url("./Images/Manjali.jpeg");
     border-radius: 10px;
     background-size: cover;
     height: 200px;
