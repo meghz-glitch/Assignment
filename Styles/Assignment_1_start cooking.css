@@ -138,38 +138,25 @@ body {
     border: 5px solid tomato;
     color: white;
     background-color: rgba(255, 99, 71, 0.5);
+    border-radius: 10px;
+    background-size: cover;
+    height: 200px;
 }
 #speciality-section1 {
     background-image: url("../Images/Thalassery.jpeg");
-    border-radius: 10px;
-    background-size:cover;
-    height: 200px;
-    
 }
 
 #speciality-section2 {
     background-image: url("../Images/HYdrabadi.png");
-    border-radius: 10px;
-    background-size: cover;
-    height: 200px;
    
 }
 
 #speciality-section3 {
     background-image: url("../Images/Ambur.jpeg");
-    border-radius: 10px;
-    background-size: cover;
-    height: 200px;
-   
-   
 }
 
 #speciality-section4 {
     background-image: url("../Images/Manjali.jpeg");
-    border-radius: 10px;
-    background-size: cover;
-    height: 200px;
-   
 }
 
 .back-button {

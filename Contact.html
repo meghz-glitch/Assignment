@@ -11,11 +11,11 @@
         <nav>
             <div class="logo">
                 <img src="./Images/Logo_1.jpeg" alt="MeghZ Signature Dish Logo">
-                <h1>MeghZ Signature Dish</h1>
+                <h1>Contact MeghZz</h1>
             </div>
             <ul class="nav-links">
                 <li><a href="./Home.html">Home</a></li>
-                <li><a href="./Contact.html">Contact</a></li>
+             <li><a href="./Contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -27,11 +27,11 @@
                 <fieldset>
                     
                     <legend for="user-name">Please enter your full-name</legend>
-                    <input type="text" name="user-name" id="user-name" placeholder="">
+                    <input type="text" name="user-name" id="user-name" placeholder=""required>
                 </fieldset>
                 <fieldset>
                     <legend for="user-message">Email</legend>
-                    <input type="text" name="user-message" id="user-name" placeholder="">
+                    <input type="text" name="user-message" id="user-email" placeholder=""required>
                 </fieldset>
                 <fieldset>
                     <legend>What kind of biriyani do you want?</legend>
@@ -63,7 +63,7 @@
                     
                     <fieldset>
                     <legend for="meat">Choose your meat</legend>
-                    <select id="meat" name="meat">
+                    <select id="meat" name="meat" required>
                         <option value=""disabled selected>-------------Choose--------------</option>
                         <option value="Chicken">Chicken</option>
                         <option value="Lamp">Lamp</option>
